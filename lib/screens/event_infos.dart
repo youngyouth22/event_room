@@ -63,7 +63,7 @@ SMIBool? likepress;
           }
 
           if (snapshot.connectionState == ConnectionState.waiting) {
-            return Center(child: Text('Chargement...'));
+            return const Center(child: Text('Chargement...'));
           }
 
           Map<String, dynamic> heures = snapshot.data!.get('heures')['Depart'];
