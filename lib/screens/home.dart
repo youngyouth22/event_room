@@ -120,7 +120,7 @@ class _HomePageState extends State<HomePage> {
                      fontWeight: FontWeight.bold,
                     ),),
             
-                    TextButton(onPressed: () => print('yooooo'), child: Text('Voir plus'))
+                    TextButton(onPressed: () => print('yooooo'), child: const Text('Voir plus'))
                   ],
                 ),
               ),
