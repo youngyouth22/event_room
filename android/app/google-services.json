@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "280532613017",
+    "project_id": "event-room-ec397",
+    "storage_bucket": "event-room-ec397.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280532613017:android:e2e61480a5277525674508",
+        "android_client_info": {
+          "package_name": "com.example.event_room"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280532613017-uq35km5g34krrjonh4bc6m8o1410bbqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuhiK3SPB5gJwgOJoVXBPcBuNXN3qU7cE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280532613017-uq35km5g34krrjonh4bc6m8o1410bbqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
