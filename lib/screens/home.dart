@@ -128,7 +128,7 @@ class _HomePageState extends State<HomePage> {
 
             UserFollow(),
             
-            const SizedBox(height: 10,),
+            const SizedBox(height: 0,),
             CategorieChips(),
            RecentEvent()
             

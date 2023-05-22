@@ -24,10 +24,11 @@ class _CategorieChipsState extends State<CategorieChips> {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
       child: ChoiceChip(
+        shape: const RoundedRectangleBorder(borderRadius: BorderRadius.only()),
         labelStyle: TextStyle(color: _selectedIndex == index ? Colors.white :Colors.black45, fontSize: 14),
         labelPadding: const EdgeInsets.symmetric(vertical: 2, horizontal: 10),
         selectedColor: ColorApp.secondaryColor,
-        backgroundColor: ColorApp.secondaryColora2,
+        backgroundColor: Colors.grey.withOpacity(0.2),
         label: Text(_options[index], style: const TextStyle(fontWeight: FontWeight.bold),),
         selected: _selectedIndex == index,
         onSelected: (bool selected) {
